@@ -1,4 +1,4 @@
 # Answer 1
-** Algorithm Test **
+**Algorithm Test**
 # Answer 2
-** Full Stack Mini Project **
+**Full Stack Mini Project**
