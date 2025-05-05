@@ -44,31 +44,6 @@ npm run dev
 
 ---
 
-## 🛠 โครงสร้างโปรเจกต์
-
-```
-src/
-  └─ app/
-       ├─ api/
-       │   └─ todos/
-       │        ├─ route.ts       <-- API หลัก
-       │        └─ [id]/route.ts <-- API สำหรับ PATCH, DELETE, GET รายตัว
-       ├─ components/
-       │   ├─ main/
-       │   │   └─ OverView.tsx    <-- หน้า Main Overview
-       │   └─ sidebar/
-       │       ├─ Done.tsx
-       │       ├─ SideBar.tsx
-       │       └─ Edit.tsx
-       └─ docs/
-           └─ page.tsx           <-- Swagger UI Viewer
-
-lib/
-  └─ swagger.ts                 <-- Swagger config + schemas
-```
-
----
-
 ## 🧠 เพิ่มเติม
 
 - ใช้ Prisma กับ PostgreSQL
